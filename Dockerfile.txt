@@ -1,0 +1,6 @@
+FROM mhart/alpine-node
+
+EXPOSE 3000
+WORKDIR /index
+COPY . /index
+CMD ["node", "index.js"]
