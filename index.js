@@ -13,7 +13,7 @@ var app = express();
 app.use(express.static(path.join(__dirname, 'public')));
 //Respond with "hello world" for requests that hit our root "/"
 app.get("/", function (req, res) {
-  res.send("hello world");
+  res.send("hello olasumbo");
  
 });
 
