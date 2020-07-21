@@ -13,10 +13,10 @@ var app = express();
 app.use(express.static(path.join(__dirname, 'public')));
 //Respond with "hello world" for requests that hit our root "/"
 app.get("/", function (req, res) {
-  res.send("hello");
+  res.send("hello wale");
  
 });
-
+ 
 
 //listen to port 3000 by default
 
