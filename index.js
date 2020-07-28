@@ -22,7 +22,7 @@ app.get("/", function (req, res) {
 
 // console.log(`server running on port ${port}`)
 // console.error('server connected');
-const PORT = 3000 || process.env.PORT;
+const PORT = 4000 || process.env.PORT;
 app.listen(PORT, ()=> console.log(`server running on port ${PORT}`));
 
  
