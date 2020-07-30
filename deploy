@@ -1,0 +1,8 @@
+#!/bin/sh
+ssh kz@192.168.88.142 <<EOF
+ cd ~/node-project
+ git pull
+ npm install — production
+ node index.js
+ exit
+EOF
